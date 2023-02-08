@@ -1,0 +1,585 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: rgb(112, 55, 14);
+  color: black;
+}
+*::selection {
+  background-color: rgb(112, 55, 14);
+  color: black;
+}
+
+.all {
+  font-family: "Bebas Neue", cursive;
+  background-image: url(../Imagenes/basketball2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: rgb(231, 231, 181);
+}
+.navbar .navbar-brand {
+  font-family: "Satisfy", cursive;
+  transition: transform 0.5s;
+  color: black;
+}
+.navbar .navbar-brand:hover {
+  transform: scale(1.1);
+}
+.navbar .nav-item {
+  transition: transform 0.5s;
+}
+.navbar .nav-item:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+.navbar .nav-link {
+  color: black;
+}
+
+.redes {
+  text-align: center;
+  background-color: black;
+}
+.redes a {
+  color: white;
+}
+.redes a:hover {
+  color: rgb(191, 189, 189);
+}
+.redes a:active {
+  color: rgb(191, 189, 189);
+}
+.redes a:focus {
+  color: rgb(191, 189, 189);
+}
+.redes i {
+  font-size: 25px;
+  letter-spacing: 15px;
+  padding-top: 5px;
+}
+
+.carousel {
+  background-color: rgba(0, 0, 0, 0.465);
+}
+.carousel .img {
+  margin: auto;
+}
+.carousel .carousel-inner {
+  width: 100%;
+  width: 650px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-items: center;
+}
+.carousel h1 {
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+.carousel h1 strong {
+  background-color: rgba(255, 255, 255, 0.612);
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+.carousel .carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  list-style: none;
+}
+.carousel .carousel-indicators .carousel-indicators [data-bs-target] {
+  align-items: center;
+  background-color: rgb(178, 124, 15);
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.news .news__item {
+  width: 250px;
+  margin: 10px 20px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  transition: transform 0.5s;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.news .news__item:hover {
+  transform: scale(1.1) translateY(-30px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.news .news__item :visited {
+  color: black;
+}
+.news .img__news {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.titleh2 h2 {
+  margin: 20px;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+.titleh2 h2 strong {
+  background-color: rgba(255, 255, 255, 0.734);
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+
+.videos {
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.videos h1 {
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+.videos h1 strong {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+.videos iframe {
+  margin: 30px;
+}
+.videos video {
+  margin: 30px;
+  height: 320px;
+  width: 560px;
+}
+
+.interviews {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.interviews h1 {
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+.interviews h1 strong {
+  background-color: rgba(255, 255, 255, 0.734);
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+.interviews .interviews__item {
+  width: 250px;
+  margin: 15px 35px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  transition: transform 0.5s;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.interviews .interviews__item:hover {
+  transform: scale(1.1) translateY(-30px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.interviews .interviews__item :visited {
+  color: black;
+}
+.interviews .interviews__item .img__interviews {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.aboutme {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aboutme h1 {
+  margin: 20px;
+  width: 100%;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+.aboutme h1 strong {
+  background-color: rgba(255, 255, 255, 0.719);
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+.aboutme p {
+  color: black;
+  font-size: 24px;
+  margin: 0px 100px 0px 100px;
+  text-align: center;
+  padding: 30px 80px;
+}
+.aboutme p strong {
+  background-color: rgba(255, 255, 255, 0.72);
+  padding: 3px;
+  border-radius: 4px;
+}
+.aboutme .caption {
+  color: black;
+  text-align: center;
+}
+.aboutme .player {
+  width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.teams {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.teams h2 {
+  margin-top: 65px;
+  padding: 10px;
+  width: 100%;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+.teams h2 strong {
+  background-color: rgba(255, 255, 255, 0.732);
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+.teams li {
+  color: black;
+  list-style: none;
+  font-size: 24px;
+  margin: 7px;
+  text-align: center;
+}
+.teams .imagenesadm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.teams .imagenesadm .player {
+  margin: 10px;
+  padding: 30px;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.acordeon {
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-align: center;
+}
+.acordeon h1 {
+  margin: 50px;
+  font-size: 50px;
+  color: black;
+}
+.acordeon h1 strong {
+  background-color: rgba(255, 255, 255, 0.734);
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+.acordeon .accordion {
+  --bs-accordion-btn-focus-border-color: $secondarycolor;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(179, 182, 185, 0.25);
+  --bs-accordion-active-color: grey;
+  --bs-accordion-active-bg: $footercolor1;
+  --bs-accordion-color: white;
+  --bs-accordion-btn-color: $secondarycolor;
+  --bs-accordion-active-color: $secondarycolor;
+}
+.acordeon .accordion .accordion-body {
+  background-color: rgb(112, 55, 14);
+}
+.acordeon .accordion .accordion-button.collapsed::after {
+  color: black;
+}
+.acordeon .accordion button.accordion-button::after {
+  color: black;
+}
+.acordeon .accordion .accordion-button {
+  background-color: white;
+  color: rgb(112, 55, 14);
+}
+.acordeon .accordion .accordion-button:not(.collapsed) {
+  background-color: rgb(191, 189, 189);
+  color: rgb(112, 55, 14);
+}
+.acordeon .accordion .accordion-button:focus {
+  border-color: rgb(118, 116, 116);
+  color: rgb(112, 55, 14);
+}
+
+.flex__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+}
+.flex__container .form {
+  min-width: 200px;
+  text-align: center;
+}
+.flex__container .form .form__input {
+  width: 400px;
+  padding: 10px;
+  margin: 12px;
+  border: none;
+  border-bottom: 3px solid rgb(112, 55, 14);
+  font-family: "Bebas Neue";
+  font-size: 16px;
+}
+.flex__container .form .form__input:focus {
+  background: rgb(212, 211, 211);
+  outline: none;
+  border-bottom: 3px solid rgb(156, 79, 24);
+}
+.flex__container .form .form__input[type=submit] {
+  background-color: rgb(112, 55, 14);
+  color: white;
+  border-bottom: none;
+}
+.flex__container .form .form__input[type=submit]:hover {
+  background-color: rgb(156, 79, 24);
+}
+.flex__container .form .form__input[type=submit]:focus {
+  background-color: rgb(112, 55, 14);
+}
+.flex__container .form .form__input[type=submit]:active {
+  background-color: rgb(112, 55, 14);
+}
+.flex__container .form .text-area {
+  min-width: 200px;
+  width: 400px;
+  resize: none;
+  height: 150px;
+}
+
+.flex-flex h3 {
+  margin: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+.flex-flex h3 strong {
+  background-color: rgba(255, 255, 255, 0.734);
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+
+@media screen and (max-width: 768px) {
+  /* ACERCA DE MI */
+  .aboutme p {
+    font-size: 21px;
+    margin: auto;
+  }
+  .aboutme h1 {
+    font-size: 40px;
+  }
+  .teams li {
+    font-size: 21px;
+    margin: auto;
+  }
+  .teams h2 {
+    font-size: 40px;
+  }
+  .player {
+    width: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* FIN ACERCA DE MI  */
+  /* PAGINA DE ENTREVISTAS  */
+  .interviews__item {
+    width: 200px;
+    margin: 10px;
+  }
+  .interviews__item .img__interviews {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* FIN PAGINA DE ENTREVISTAS*/
+  /* PAGINA DE VIDEOS */
+  .videos video {
+    height: 270px;
+    width: 510px;
+  }
+  /* FIN PAGINA DE VIDEOS*/
+  /* NOTICIAS PAGINA DE GALERIA Y NOTICIAS */
+  .carousel h1 {
+    font-size: 40px;
+  }
+  .carousel .carousel-inner {
+    width: 500px;
+    height: 500px;
+  }
+  .titleh2 h2 {
+    font-size: 40px;
+  }
+  .news .news__item {
+    width: 200px;
+    margin: 10px;
+  }
+  .news .news__item .img__news {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* FIN NOTICIAS PAGINA DE GALERIA Y NOTICIAS */
+}
+@media screen and (max-width: 480px) {
+  .all {
+    background-image: url(../Imagenes/basketball-gb18a82634_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  /* PAGINA DE INICIO */
+  .aboutme {
+    text-align: center;
+  }
+  .aboutme figcaption {
+    font-size: 15px;
+  }
+  .aboutme p {
+    font-size: 22px;
+    margin: 0px -45px;
+    background-color: rgba(255, 255, 255, 0.18);
+  }
+  .aboutme h1 {
+    font-size: 30px;
+  }
+  .aboutme .player {
+    width: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .teams li {
+    font-size: 22px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.18);
+  }
+  .teams h2 {
+    font-size: 30px;
+  }
+  .teams .imagenesadm .player {
+    margin: 5px;
+    padding: 5px;
+    width: 315px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* FIN PAGINA DE INICIO  */
+  /* PAGINA DE VIDEOS */
+  .videos h1 {
+    margin: 10px;
+    font-size: 30px;
+  }
+  .videos video {
+    margin: 20px;
+    height: 240px;
+    width: 360px;
+  }
+  .videos iframe {
+    margin: 20px;
+  }
+  /* FIN PAGINA DE VIDEOS*/
+  /* PAGINA DE ENTREVISTAS  */
+  .interviews h1 {
+    font-size: 30px;
+  }
+  .interviews .interviews__item {
+    width: 170px;
+    margin: auto;
+    font-size: 20px;
+  }
+  .interviews .interviews__item .img__interviews {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* FIN PAGINA DE ENTREVISTAS */
+  /* PAGINA DE GALERIA Y NOTICIAS */
+  .carousel h1 {
+    font-size: 30px;
+  }
+  .carousel .carousel-inner {
+    width: 370px;
+    height: 370px;
+  }
+  .titleh2 h2 {
+    font-size: 30px;
+  }
+  .news .news__item {
+    width: 170px;
+    margin: auto;
+    font-size: 20px;
+  }
+  .news .news__item .img__news {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* FIN NOTICIAS PAGINA DE GALERIA Y NOTICIAS */
+  /*PAGINA DE CONTACTO*/
+  .acordeon h1 {
+    margin: 60px 35px;
+    font-size: 30px;
+  }
+  .flex__container {
+    min-width: 300px;
+  }
+  .flex__container .form {
+    min-width: 300px;
+  }
+  .flex__container .form .form__input {
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .flex-flex h3 {
+    margin: 60px 35px 10px 35px;
+    text-align: center;
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

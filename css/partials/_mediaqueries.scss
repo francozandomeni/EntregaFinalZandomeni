@@ -1,0 +1,272 @@
+@media screen and (max-width: 768px) {
+/* ACERCA DE MI */
+
+    .aboutme {
+        p {  
+            font-size: 21px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .teams {
+    li {
+        font-size: 21px;
+        margin: auto;
+    }
+    h2 {
+        font-size: 40px
+    }
+    }
+
+    .player {
+    width: 350px;
+    object-fit: cover;  
+    }
+
+    
+
+/* FIN ACERCA DE MI  */
+
+/* PAGINA DE ENTREVISTAS  */
+
+    .interviews__item {
+        width: 200px;
+        margin: 10px;
+
+        .img__interviews {
+            width: 100%;
+            object-fit: cover;
+        }
+
+    }
+
+/* FIN PAGINA DE ENTREVISTAS*/
+
+/* PAGINA DE VIDEOS */
+    .videos {
+    
+        video {
+            height: 270px;
+            width: 510px;
+        }
+    }
+/* FIN PAGINA DE VIDEOS*/
+    
+/* NOTICIAS PAGINA DE GALERIA Y NOTICIAS */
+    .carousel { 
+        h1 { 
+            font-size: 40px;
+        }
+
+        .carousel-inner {
+            width: 500px;
+            height: 500px;
+        }
+    }
+
+    .titleh2 {
+        h2 {
+        font-size: 40px;
+            
+        }
+    }
+
+    .news {
+    
+        .news__item {
+            width: 200px;
+            margin: 10px; 
+
+            .img__news{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+}
+
+/* FIN NOTICIAS PAGINA DE GALERIA Y NOTICIAS */
+}
+
+@media screen and (max-width: 480px) {
+
+    .all {
+        background-image: url(../Imagenes/basketball-gb18a82634_1920.jpg);
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+     
+    }
+
+    /* PAGINA DE INICIO */
+
+    .aboutme {
+        text-align: center;
+
+            figcaption {
+                font-size: 15px;
+            }
+
+            p {
+             
+            font-size: 22px;
+            margin: 0px -45px;
+            background-color: rgba(255, 255, 255, 0.18);
+            
+        }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .player {
+                width: 350px;
+                object-fit: cover;  
+                
+                }
+        }
+
+    .teams {
+            li {
+            font-size: 22px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.18);
+        }
+
+            h2 {
+                font-size: 30px
+                
+            }
+
+            .imagenesadm {
+
+                .player {
+                    margin: 5px;
+                    padding: 5px;
+                    width: 315px;
+                    object-fit: cover;  
+                    }
+
+            }
+    }
+
+/* FIN PAGINA DE INICIO  */
+
+/* PAGINA DE VIDEOS */
+.videos {
+
+    h1 {
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    video {
+        margin: 20px;
+        height: 240px;
+        width: 360px;
+    }
+
+    iframe {
+        margin: 20px;
+    }
+
+}
+/* FIN PAGINA DE VIDEOS*/
+
+/* PAGINA DE ENTREVISTAS  */
+
+.interviews {
+    h1 { 
+    font-size: 30px;
+    }
+
+    .interviews__item {
+        width: 170px;
+        margin: auto;
+        font-size: 20px;
+
+            .img__interviews {
+                width: 100%;
+                object-fit: cover;
+            }
+
+    }
+}
+/* FIN PAGINA DE ENTREVISTAS */
+
+/* PAGINA DE GALERIA Y NOTICIAS */
+
+ .carousel { 
+     h1 { 
+         font-size: 30px;
+     }
+
+     .carousel-inner {
+         width: 370px;
+         height: 370px;
+     }
+ }
+
+ .titleh2 {
+     h2 {
+     font-size: 30px;
+        
+     }
+ }
+
+ .news { 
+    
+     .news__item {
+         width: 170px;
+         margin: auto;
+         font-size: 20px;
+
+         .img__news{
+             width: 100%;
+             object-fit: cover;
+         }
+        
+     }
+ }
+
+
+/* FIN NOTICIAS PAGINA DE GALERIA Y NOTICIAS */
+
+
+/*PAGINA DE CONTACTO*/
+
+    .acordeon {
+
+        h1 {
+            margin: 60px 35px;
+            font-size: 30px;
+            }
+        }
+
+    .flex__container {
+        min-width: 300px;
+
+        .form {
+            min-width: 300px;
+            
+            .form__input {
+                width: 300px;
+                padding: 5px;
+                margin: 5px;
+            }
+    }
+    }
+
+    .flex-flex {
+
+        h3 {
+            margin: 60px 35px 10px 35px;
+            text-align: center;
+            font-size: 30px;        
+            }
+
+    }
+}

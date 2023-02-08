@@ -1,0 +1,99 @@
+.aboutme {    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h1 {
+        margin: 20px;
+        width: 100%;
+        font-size: 50px;
+        color: black;
+        text-align: center;
+        ;
+
+        strong {
+            background-color: rgba(255, 255, 255, 0.719);
+            padding: 2px 7px;
+            border-radius: 4px;
+            
+        }
+    }
+    
+    p {  
+        color: black;
+        font-size: 24px;
+        margin: 0px 100px 0px 100px;
+        text-align: center;
+        padding: 30px 80px;
+
+        strong {
+            background-color: rgba(255, 255, 255, 0.72);
+            padding: 3px;
+            border-radius: 4px;
+        }
+    
+    }
+    .caption { 
+        color: black;
+        text-align: center;
+    }
+
+    .player {
+       
+        width: 500px;
+        object-fit: cover;  
+    }    
+}
+
+.teams {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    h2 {  
+        margin-top: 65px;
+        padding: 10px;
+        width: 100%;
+        font-size: 50px;
+        color: black;
+        text-align: center;
+        
+
+        strong {
+            background-color: rgba(255, 255, 255, 0.732);
+            padding: 2px 7px;
+            border-radius: 4px;
+        }
+    
+    }
+
+    li {
+        color: black;
+        list-style: none;
+        font-size: 24px;
+        margin: 7px;
+        text-align: center; 
+    }
+
+    .imagenesadm {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; 
+
+        .player {
+            margin: 10px;
+            padding: 30px;
+            width: 400px;
+            object-fit: cover;  
+        }
+    }
+
+    
+
+    
+}
+
+
