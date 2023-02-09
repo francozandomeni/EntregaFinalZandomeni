@@ -124,6 +124,9 @@
   transition: transform 0.5s;
   background-color: rgba(255, 255, 255, 0.3);
 }
+.news .news__item a {
+  color: black;
+}
 .news .news__item:hover {
   transform: scale(1.1) translateY(-30px);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -207,6 +210,9 @@
   transition: transform 0.5s;
   background-color: rgba(255, 255, 255, 0.3);
 }
+.interviews .interviews__item a {
+  color: black;
+}
 .interviews .interviews__item:hover {
   transform: scale(1.1) translateY(-30px);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -262,7 +268,6 @@
 }
 
 .teams {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -270,7 +275,6 @@
 .teams h2 {
   margin-top: 65px;
   padding: 10px;
-  width: 100%;
   font-size: 50px;
   color: black;
   text-align: center;
